@@ -43,6 +43,6 @@
             </svg>
         </span> --}}
 
-        <span class="app-brand-text demo text-body fw-bold">Laravel 11 boilerplate</span>
+        <span class="app-brand-text demo text-body fw-bold">SCM n CRM</span>
     </a>
 </div>

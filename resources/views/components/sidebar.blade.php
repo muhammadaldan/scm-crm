@@ -43,7 +43,7 @@
                     </g>
                 </svg>
             </span>
-            <span class="app-brand-text demo menu-text fw-bold ms-2">Laravel 11</span>
+            <span class="app-brand-text demo menu-text fw-bold ms-2">SCM & CRM</span>
         </a>
 
         <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -70,7 +70,7 @@
             </ul>
         </li>
 
-        <li class="menu-header small text-uppercase">
+        {{-- <li class="menu-header small text-uppercase">
             <span class="menu-header-text">Apps &amp; Pages</span>
         </li>
 
@@ -139,7 +139,7 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
 
         <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
         <li class="menu-item">
