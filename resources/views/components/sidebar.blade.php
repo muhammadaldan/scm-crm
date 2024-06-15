@@ -69,6 +69,37 @@
                 </li>
             </ul>
         </li>
+        <li class="menu-item">
+            <a href="/admin/barang" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Barang</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="/admin/petani" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Petani</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="/admin/pedagang" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Pedagang</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="/admin/industri" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Industri</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="/admin/transaksi" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Transaksi</div>
+            </a>
+        </li>
+
 
         {{-- <li class="menu-header small text-uppercase">
             <span class="menu-header-text">Apps &amp; Pages</span>

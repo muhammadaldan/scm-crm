@@ -1,0 +1,37 @@
+<x-app-layout>
+    <div class="container-xxl flex-grow-1 container-p-y">
+     
+        <div class="row">
+
+            <div class="col-md-12 order-0 mb-4">
+                <div class="card h-100">
+                    <div class="card-header d-flex align-items-center justify-content-between pb-0">
+                        <div class="card-title mb-0">
+                            <h5 class="m-0 me-2">Edit petani</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="{{ route('petani.update', $data->id) }}" method="POST">
+                            @method('PUT')
+                            @csrf
+                            <div class="form-group mb-3">
+                                <label for="nama">Nama</label>
+                                <input type="text" class="form-control" id="nama" name="name" required value="{{ $data->name }}">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="phone_number">Nomor HP</label>
+                                <input type="text" class="form-control" id="phone_number" name="phone_number" required value="{{ $data->phone_number }}">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="alamat">Alamat</label>
+                                <input type="text" class="form-control" id="alamat" name="alamat" required value="{{ $data->alamat }}">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</x-app-layout>
