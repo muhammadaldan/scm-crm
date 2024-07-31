@@ -58,12 +58,12 @@
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Dashboards">Dashboards</div>
-                <div class="badge bg-danger rounded-pill ms-auto">5</div>
+                {{-- <div class="badge bg-danger rounded-pill ms-auto">5</div> --}}
             </a>
             <ul class="menu-sub">
 
                 <li class="menu-item active">
-                    <a href="{{ url('/') }}" class="menu-link">
+                    <a href="{{ url('/dashboard') }}" class="menu-link">
                         <div data-i18n="Analytics">Analytics</div>
                     </a>
                 </li>

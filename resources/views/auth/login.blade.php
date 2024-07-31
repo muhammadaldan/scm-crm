@@ -5,7 +5,6 @@
 
             <x-logo />
 
-            <h4 class="mb-2">Welcome to Sneat! 👋</h4>
             <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
             <x-auth-session-status class="mb-1" :status="session('status')" />
@@ -40,12 +39,7 @@
                 </div>
             </form>
 
-            <p class="text-center">
-                <span>New on our platform?</span>
-                <a href="{{ route('register') }}">
-                    <span>Create an account</span>
-                </a>
-            </p>
+           
         </div>
     </div>
 
